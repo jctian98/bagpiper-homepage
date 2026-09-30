@@ -69,7 +69,7 @@
   <meta name="citation_author" content="Shinji Watanabe">
   <meta name="citation_publication_date" content="2026">
   <meta name="citation_conference_title" content="Third Conference on Language Modeling">
-  <meta name="citation_pdf_url" content="https://arxiv.org/pdf/2602.05220">
+  <meta name="citation_pdf_url" content="https://openreview.net/pdf?id=FuHs64E3X6">
   <link rel="canonical" href="https://jctian98.github.io/bagpiper-homepage/">
   
   <!-- Additional SEO -->
@@ -297,6 +297,7 @@
     ]
   }
   </script>
+  <link rel="stylesheet" href="resource-links.css">
 </head>
 <body>
 
@@ -349,79 +350,31 @@
             </div>
 
             <div class="column has-text-centered">
-              <nav class="publication-links" aria-label="Paper, checkpoints, data, and code">
-                <span class="link-block">
-                  <a href="https://arxiv.org/pdf/2602.05220" target="_blank" rel="noopener noreferrer"
-                  class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon"><i class="fas fa-file-pdf"></i></span>
-                    <span>Paper</span>
-                  </a>
-                </span>
-                <span class="link-block">
-                  <a href="https://openreview.net/forum?id=FuHs64E3X6" target="_blank" rel="noopener noreferrer"
-                  class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon"><i class="fas fa-file-alt"></i></span>
-                    <span>COLM 2026</span>
-                  </a>
-                </span>
-                <span class="link-block">
-                  <a href="bagpiper.bib" download class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon"><i class="fas fa-quote-right"></i></span>
-                    <span>BibTeX</span>
-                  </a>
-                </span>
-                <span class="link-block">
-                  <a href="https://arxiv.org/abs/2602.05220" target="_blank" rel="noopener noreferrer"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
+              <nav class="publication-links resource-nav" aria-label="Paper, BibTeX, checkpoint, code, and data">
+                <a href="https://openreview.net/pdf?id=FuHs64E3X6" target="_blank" rel="noopener noreferrer" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon" aria-hidden="true"><i class="fas fa-file-pdf"></i></span>
+                  <span>Paper</span>
                 </a>
-              </span>
-                <span class="link-block">
-                  <a href="https://huggingface.co/espnet/bagpiper" target="_blank" rel="noopener noreferrer"
-                  class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon"><i class="fas fa-cube"></i></span>
-                    <span>Base Checkpoint</span>
-                  </a>
-                </span>
-                <span class="link-block">
-                  <a href="https://huggingface.co/espnet/bagpiper-sft" target="_blank" rel="noopener noreferrer"
-                  class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon"><i class="fas fa-cube"></i></span>
-                    <span>SFT Checkpoint</span>
-                  </a>
-                </span>
-                <span class="link-block">
-                  <a href="https://huggingface.co/datasets/espnet/Bagpiper_SFT_Data" target="_blank" rel="noopener noreferrer"
-                  class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon"><i class="fas fa-database"></i></span>
-                    <span>SFT Data</span>
-                  </a>
-                </span>
-                <span class="link-block">
-                  <a href="https://github.com/jctian98/espnet/tree/bagpiper-e2e-validation/egs2/bagpiper/speechlm1" target="_blank" rel="noopener noreferrer"
-                  class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon"><i class="fas fa-code"></i></span>
-                    <span>Code (ESPnet egs)</span>
-                  </a>
-                </span>
-                <span class="link-block">
-                  <a href="https://github.com/espnet/espnet/pull/6822" target="_blank" rel="noopener noreferrer"
-                  class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon"><i class="fas fa-code-branch"></i></span>
-                    <span>ESPnet PR #6822</span>
-                  </a>
-                </span>
-                <span class="link-block">
-                  <a href="https://huggingface.co/collections/espnet/bagpiper" target="_blank" rel="noopener noreferrer"
-                  class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon"><i class="fas fa-layer-group"></i></span>
-                    <span>Hugging Face Collection</span>
-                  </a>
-                </span>
-            </nav>
+                <a href="bagpiper.bib" download class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon" aria-hidden="true"><i class="fas fa-quote-right"></i></span>
+                  <span>BibTeX</span>
+                </a>
+                <div class="resource-group is-dark" role="group" aria-label="Checkpoint">
+                  <span class="icon" aria-hidden="true"><i class="fas fa-cube"></i></span>
+                  <span>Checkpoint</span>
+                  <a href="https://huggingface.co/espnet/bagpiper" target="_blank" rel="noopener noreferrer" aria-label="Base checkpoint">Base</a>
+                  <a href="https://huggingface.co/espnet/bagpiper-sft" target="_blank" rel="noopener noreferrer" aria-label="SFT checkpoint">SFT</a>
+                </div>
+                <a href="https://github.com/jctian98/espnet/tree/bagpiper-e2e-validation/egs2/bagpiper/speechlm1" target="_blank" rel="noopener noreferrer" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon" aria-hidden="true"><i class="fas fa-code"></i></span>
+                  <span>Code</span>
+                </a>
+                <div class="resource-group is-dark" role="group" aria-label="Data">
+                  <span class="icon" aria-hidden="true"><i class="fas fa-database"></i></span>
+                  <span>Data</span>
+                  <a href="https://huggingface.co/datasets/espnet/Bagpiper_SFT_Data" target="_blank" rel="noopener noreferrer" aria-label="Post-training data">Post-train</a>
+                </div>
+              </nav>
           </div>
         </div>
       </div>
